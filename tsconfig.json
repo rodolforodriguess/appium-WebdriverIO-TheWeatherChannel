@@ -1,30 +1,24 @@
 {
     "compilerOptions": {
-        "moduleResolution": "node",
-        "module": "ESNext",
-        "target": "es2022",
-        "lib": [
-            "es2022",
-            "dom"
-        ],
+        "sourceMap": false,
+        "target": "es2020",
+        "module": "NodeNext",
+        "moduleResolution": "Node16",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
         "types": [
             "node",
             "@wdio/globals/types",
+            "@wdio/mocha-framework",
             "expect-webdriverio",
-            "@wdio/mocha-framework"
-        ],
-        "skipLibCheck": true,
-        "noEmit": true,
-        "allowImportingTsExtensions": true,
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "strict": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        ]
     },
     "include": [
-        "test",
-        "wdio.conf.ts"
+        "./config/**/*.ts",
+        "./test/**/*.ts"
     ]
 }
