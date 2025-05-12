@@ -1,4 +1,4 @@
-import { browser } from '@wdio/globals'
+//import { browser } from '@wdio/globals'
 
 /**
 * main page object containing all methods, selectors and functionality
@@ -9,7 +9,7 @@ export default class Page {
     * Opens a sub page of the page
     * @param path path of the sub page (e.g. /path/to/page.html)
     */
-    public open (path: string) {
-        return browser.url(`https://the-internet.herokuapp.com/${path}`)
+    async open (path: string):Promise<string> {
+        return browser.url(path)
     }
 }

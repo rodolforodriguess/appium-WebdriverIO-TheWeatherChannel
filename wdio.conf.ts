@@ -45,7 +45,7 @@ export const config: WebdriverIO.Config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -54,9 +54,9 @@ export const config: WebdriverIO.Config = {
     capabilities: [{
         // capabilities for local Appium web tests on an Android Emulator
         platformName: 'Android',
-        browserName: 'Chrome',
-        'appium:deviceName': 'Android GoogleAPI Emulator',
-        'appium:platformVersion': '12.0',
+        browserName: 'chrome',
+        'appium:deviceName': 'Pixel_7a',
+        'appium:platformVersion': '16.0',
         'appium:automationName': 'UiAutomator2'
     }],
 
@@ -91,7 +91,7 @@ export const config: WebdriverIO.Config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    // baseUrl: 'http://localhost:8080',
+    baseUrl: 'http://the-internet.herokuapp.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -107,7 +107,22 @@ export const config: WebdriverIO.Config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    // services: [],
+    services: [
+        [
+            'appium',
+            {
+                // This will use the globally installed version of Appium
+                // command: 'appium',
+                args: {
+                    // This is needed to tell Appium that we can execute local ADB commands
+                    // and to automatically download the latest version of ChromeDriver
+                    relaxedSecurity: true,
+                    // Write the Appium logs to a file in the root of the directory
+                    log: './logs/appium.log',
+                },
+            },
+        ],
+    ],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
