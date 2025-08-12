@@ -1,7 +1,7 @@
 import AppScreen from "./AppScreen.ts";
 
 const SELECTORS = {
-    SCREEN: '#onboarding-welcome-page'
+    SCREEN: 'android=new UiSelector().resourceId("onboarding-welcome-page")'
 };
 
 class WelcomeScreen extends AppScreen {
@@ -10,7 +10,7 @@ class WelcomeScreen extends AppScreen {
     }
 
     get screen () { return $(SELECTORS.SCREEN)}
-    private get letsgoButton () { return $('#getStartedButton') };
+    private get letsgoButton () { return $('android=new UiSelector().resourceId("getStartedButton")') };
 
     async tapOnGetStarted(){
         await this.letsgoButton.click();
