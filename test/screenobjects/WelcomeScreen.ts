@@ -1,20 +1,18 @@
-import AppScreen from "./AppScreen.ts";
+class WelcomeScreen {
 
-const SELECTORS = {
-    SCREEN: 'android=new UiSelector().resourceId("onboarding-welcome-page")'
-};
+    get screen () { return $('android=new UiSelector().resourceId("onboarding-welcome-page")') };
 
-class WelcomeScreen extends AppScreen {
-    constructor () {
-        super(SELECTORS.SCREEN);
-    }
+    get letsGoButton () { return $('android=new UiSelector().resourceId("getStartedButton")') };
 
-    get screen () { return $(SELECTORS.SCREEN)}
-    private get letsgoButton () { return $('android=new UiSelector().resourceId("getStartedButton")') };
+    get currentLocation () { return $('android=new UiSelector().resourceId("ic_plus")') };
 
     async tapOnGetStarted(){
-        await this.letsgoButton.click();
+        await this.letsGoButton.click();
+    }
+
+    async pickCurrentLocation(){
+        await this.currentLocation.click();
     }
 };
 
-export default new WelcomeScreen();
+export default WelcomeScreen;
