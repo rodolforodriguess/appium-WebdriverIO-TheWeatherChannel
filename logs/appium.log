@@ -1,37 +1,37 @@
-2025-05-15 19:10:15:895 [Appium] Welcome to Appium v2.18.0 (REV 8ea0fcdf7890f6824bc68807881ccbe5c491e9aa)
-2025-05-15 19:10:15:896 [Appium] Non-default server args:
-2025-05-15 19:10:15:896 [Appium] { basePath: '/', relaxedSecurityEnabled: true }
-2025-05-15 19:10:15:896 [Appium] The autodetected Appium home path: /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel
-2025-05-15 19:10:15:897 [Appium] Attempting to load driver uiautomator2...
-2025-05-15 19:10:15:899 [Appium] Requiring driver at /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/build/index.js
-2025-05-15 19:10:16:398 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.500s
-2025-05-15 19:10:16:407 [Appium] Appium REST http interface listener started on http://0.0.0.0:4723
-2025-05-15 19:10:16:407 [Appium] You can provide the following URLs in your client code to connect to this server:
-	http://127.0.0.1:4723/ (only accessible from the same host)
-	http://192.168.7.235:4723/
-2025-05-15 19:10:16:408 [Appium] Available drivers:
-2025-05-15 19:10:16:408 [Appium]   - uiautomator2@4.2.3 (automationName 'UiAutomator2')
-2025-05-15 19:10:16:408 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
-2025-05-15 19:10:16:943 [HTTP] --> POST /session {"capabilities":{"alwaysMatch":{"platformName":"Android","wdio:maxInstances":1,"appium:deviceName":"Pixel 7a","appium:automationName":"UiAutomator2","appium:app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","appium:newCommandTimeout":240,"appium:locationServicesEnabled":true},"firstMatch":[{}]}}
-2025-05-15 19:10:16:943 [AppiumDriver@1ea5] Calling AppiumDriver.createSession() with args: [null,null,{"alwaysMatch":{"platformName":"Android","wdio:maxInstances":1,"appium:deviceName":"Pixel 7a","appium:automationName":"UiAutomator2","appium:app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","appium:newCommandTimeout":240,"appium:locationServicesEnabled":true},"firstMatch":[{}]}]
-2025-05-15 19:10:16:944 [AppiumDriver@1ea5] Event 'newSessionRequested' logged at 1747336216944 (16:10:16 GMT-0300 (Brasilia Standard Time))
-2025-05-15 19:10:16:945 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
-2025-05-15 19:10:16:945 [Appium] The 'uiautomator2' driver was installed and matched caps.
-2025-05-15 19:10:16:946 [Appium] Will require it at /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver
-2025-05-15 19:10:16:946 [Appium] Requiring driver at /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/build/index.js
-2025-05-15 19:10:16:947 [AppiumDriver@1ea5] Appium v2.18.0 creating new AndroidUiautomator2Driver (v4.2.3) session
-2025-05-15 19:10:16:947 [AppiumDriver@1ea5] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-2025-05-15 19:10:16:947 [AppiumDriver@1ea5] Appium's BaseDriver version is 9.17.0
-2025-05-15 19:10:16:947 [AppiumDriver@1ea5] AndroidUiautomator2Driver's BaseDriver version is 9.16.4
-2025-05-15 19:10:16:949 [AppiumDriver@1ea5] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
-2025-05-15 19:10:16:949 [38;5;-113m[AndroidUiautomator2Driver@d0b0] 
-2025-05-15 19:10:16:950 [38;5;-113m[AndroidUiautomator2Driver@d0b0] Creating session with W3C capabilities: {
+2025-08-26 22:37:55:109 [Appium] Welcome to Appium v2.18.0 (REV 2c0d80909d1e0326168901fe0b0e6780c9ebc008)
+2025-08-26 22:37:55:110 [Appium] Non-default server args:
+2025-08-26 22:37:55:111 [Appium] { basePath: '/', port: 49690, relaxedSecurityEnabled: true }
+2025-08-26 22:37:55:111 [Appium] The autodetected Appium home path: /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp
+2025-08-26 22:37:55:111 [Appium] Attempting to load driver uiautomator2...
+2025-08-26 22:37:55:112 [Appium] Requiring driver at /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/build/index.js
+2025-08-26 22:37:55:516 [Appium] AndroidUiautomator2Driver has been successfully loaded in 0.405s
+2025-08-26 22:37:55:522 [Appium] Appium REST http interface listener started on http://0.0.0.0:49690
+2025-08-26 22:37:55:522 [Appium] You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:49690/ (only accessible from the same host)
+	http://192.168.7.239:49690/
+2025-08-26 22:37:55:522 [Appium] Available drivers:
+2025-08-26 22:37:55:522 [Appium]   - uiautomator2@4.2.3 (automationName 'UiAutomator2')
+2025-08-26 22:37:55:522 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-08-26 22:37:55:943 [HTTP] --> POST /session {"capabilities":{"alwaysMatch":{"platformName":"Android","wdio:maxInstances":1,"appium:deviceName":"Pixel 7a","appium:automationName":"UiAutomator2","appium:app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","appium:newCommandTimeout":240,"appium:locationServicesEnabled":true},"firstMatch":[{}]}}
+2025-08-26 22:37:55:944 [AppiumDriver@5478] Calling AppiumDriver.createSession() with args: [null,null,{"alwaysMatch":{"platformName":"Android","wdio:maxInstances":1,"appium:deviceName":"Pixel 7a","appium:automationName":"UiAutomator2","appium:app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","appium:newCommandTimeout":240,"appium:locationServicesEnabled":true},"firstMatch":[{}]}]
+2025-08-26 22:37:55:944 [AppiumDriver@5478] Event 'newSessionRequested' logged at 1756247875944 (19:37:55 GMT-0300 (Brasilia Standard Time))
+2025-08-26 22:37:55:946 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+2025-08-26 22:37:55:946 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2025-08-26 22:37:55:946 [Appium] Will require it at /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver
+2025-08-26 22:37:55:947 [Appium] Requiring driver at /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/build/index.js
+2025-08-26 22:37:55:947 [AppiumDriver@5478] Appium v2.18.0 creating new AndroidUiautomator2Driver (v4.2.3) session
+2025-08-26 22:37:55:947 [AppiumDriver@5478] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2025-08-26 22:37:55:947 [AppiumDriver@5478] Appium's BaseDriver version is 9.17.0
+2025-08-26 22:37:55:947 [AppiumDriver@5478] AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+2025-08-26 22:37:55:949 [AppiumDriver@5478] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2025-08-26 22:37:55:949 [38;5;-163m[AndroidUiautomator2Driver@8c87] 
+2025-08-26 22:37:55:950 [38;5;-163m[AndroidUiautomator2Driver@8c87] Creating session with W3C capabilities: {
   "alwaysMatch": {
     "platformName": "Android",
     "wdio:maxInstances": 1,
     "appium:deviceName": "Pixel 7a",
     "appium:automationName": "UiAutomator2",
-    "appium:app": "/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk",
+    "appium:app": "/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk",
     "appium:newCommandTimeout": 240,
     "appium:locationServicesEnabled": true
   },
@@ -39,361 +39,250 @@
     {}
   ]
 }
-2025-05-15 19:10:16:953 [38;5;-113m[AndroidUiautomator2Driver@d0b0] The following provided capabilities were not recognized by this driver:
-2025-05-15 19:10:16:954 [38;5;-113m[AndroidUiautomator2Driver@d0b0]   wdio:maxInstances
-2025-05-15 19:10:16:954 [38;5;-113m[AndroidUiautomator2Driver@d0b0]   locationServicesEnabled
-2025-05-15 19:10:16:954 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Session created with session id: 3ad5f060-e6d8-46b8-8503-f1da0ea74931
-2025-05-15 19:10:16:960 [3ad5f060][ADB] Found 4 'build-tools' folders under '/Users/rodolforodrigues/Library/Android/sdk' (newest first):
-2025-05-15 19:10:16:960 [3ad5f060][ADB]     /Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0
-2025-05-15 19:10:16:960 [3ad5f060][ADB]     /Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1
-2025-05-15 19:10:16:961 [3ad5f060][ADB]     /Users/rodolforodrigues/Library/Android/sdk/build-tools/34.0.0
-2025-05-15 19:10:16:961 [3ad5f060][ADB]     /Users/rodolforodrigues/Library/Android/sdk/build-tools/33.0.2
-2025-05-15 19:10:16:961 [3ad5f060][ADB] Using 'adb' from '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb'
-2025-05-15 19:10:16:961 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
-2025-05-15 19:10:16:974 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Retrieving device list
-2025-05-15 19:10:16:974 [3ad5f060][ADB] Trying to find connected Android devices
-2025-05-15 19:10:16:974 [3ad5f060][ADB] Getting connected devices
-2025-05-15 19:10:16:985 [3ad5f060][ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
-2025-05-15 19:10:16:986 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Using device: emulator-5554
-2025-05-15 19:10:16:986 [3ad5f060][ADB] Using 'adb' from '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb'
-2025-05-15 19:10:16:986 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
-2025-05-15 19:10:16:997 [3ad5f060][ADB] Setting device id to emulator-5554
-2025-05-15 19:10:16:998 [3ad5f060][BaseDriver] Using local app '/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk'
-2025-05-15 19:10:17:067 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Checking whether app is actually present
-2025-05-15 19:10:17:067 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
-2025-05-15 19:10:17:128 [3ad5f060][ADB] Current device property 'ro.build.version.sdk': 36
-2025-05-15 19:10:17:129 [3ad5f060][ADB] Getting device platform version
-2025-05-15 19:10:17:129 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
-2025-05-15 19:10:17:162 [3ad5f060][ADB] Current device property 'ro.build.version.release': 16
-2025-05-15 19:10:17:162 [3ad5f060][ADB] Device API level: 36
-2025-05-15 19:10:17:162 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Relaxing hidden api policy
-2025-05-15 19:10:17:162 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
-2025-05-15 19:10:17:163 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Parsing package and activity from the 'weatherChannel_app.apk' file manifest
-2025-05-15 19:10:17:164 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
-2025-05-15 19:10:17:165 [3ad5f060][ADB] Using 'aapt2' from '/Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0/aapt2'
-2025-05-15 19:10:17:165 [3ad5f060][ADB] Reading package manifest: '/Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk'
-2025-05-15 19:10:17:178 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
-2025-05-15 19:10:17:199 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Pushing settings apk to the device...
-2025-05-15 19:10:17:200 [3ad5f060][ADB] Getting package info for 'io.appium.settings'
-2025-05-15 19:10:17:200 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
-2025-05-15 19:10:17:225 [3ad5f060][ADB] Package name: 'com.weather.Weather'
-2025-05-15 19:10:17:226 [3ad5f060][ADB] Main activity name: 'com.weather.corgikit.view.CorgiActivity'
-2025-05-15 19:10:17:226 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Resolved launch package -> activity: com.weather.Weather -> com.weather.corgikit.view.CorgiActivity
-2025-05-15 19:10:17:226 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Resolved wait package -> activity: com.weather.Weather -> com.weather.corgikit.view.CorgiActivity
-2025-05-15 19:10:17:339 [3ad5f060][ADB] Reading package manifest: '/Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
-2025-05-15 19:10:17:354 [3ad5f060][ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.14.8' >= '5.14.8')
-2025-05-15 19:10:17:354 [3ad5f060][ADB] There is no need to install/upgrade '/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
-2025-05-15 19:10:17:355 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
-2025-05-15 19:10:17:380 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] io.appium.settings is already running. There is no need to reset its permissions.
-2025-05-15 19:10:17:380 [3ad5f060][Logcat] Starting logs capture with command: /Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
-2025-05-15 19:10:17:408 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Forwarding UiAutomator2 Server port 6790 to local port 8200
-2025-05-15 19:10:17:409 [3ad5f060][ADB] Forwarding system: 8200 to device: 6790
-2025-05-15 19:10:17:409 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
-2025-05-15 19:10:17:422 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] UIA2Proxy options: {"server":"127.0.0.1","port":8200,"keepAlive":true,"scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
-2025-05-15 19:10:17:422 [3ad5f060][ADB] Getting package info for 'io.appium.uiautomator2.server'
-2025-05-15 19:10:17:422 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
-2025-05-15 19:10:17:423 [3ad5f060][ADB] Getting install status for io.appium.uiautomator2.server.test
-2025-05-15 19:10:17:423 [3ad5f060][ADB] Checking app cert for /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk
-2025-05-15 19:10:17:423 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package list packages'
-2025-05-15 19:10:17:456 [3ad5f060][ADB] 'io.appium.uiautomator2.server.test' is installed
-2025-05-15 19:10:17:464 [3ad5f060][ADB] Reading package manifest: '/Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.5.2.apk'
-2025-05-15 19:10:17:518 [3ad5f060][ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.5.2' >= '7.5.2')
-2025-05-15 19:10:17:518 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Server packages status: [{"installState":"sameVersionInstalled","appPath":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.5.2.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
-2025-05-15 19:10:17:518 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Server packages are not going to be (re)installed
-2025-05-15 19:10:17:518 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 30000ms for services to be available
-2025-05-15 19:10:17:519 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
-2025-05-15 19:10:17:522 [3ad5f060][ADB] Using 'apksigner.jar' from '/Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0/lib/apksigner.jar'
-2025-05-15 19:10:17:523 [3ad5f060][ADB] Starting apksigner: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0/lib/apksigner.jar verify --print-certs /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk
-2025-05-15 19:10:17:548 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
-2025-05-15 19:10:17:550 [3ad5f060][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-2025-05-15 19:10:17:550 [3ad5f060][ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
-2025-05-15 19:10:17:550 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
-2025-05-15 19:10:17:867 [3ad5f060][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2025-08-26 22:37:55:953 [38;5;-163m[AndroidUiautomator2Driver@8c87] The following provided capabilities were not recognized by this driver:
+2025-08-26 22:37:55:953 [38;5;-163m[AndroidUiautomator2Driver@8c87]   wdio:maxInstances
+2025-08-26 22:37:55:953 [38;5;-163m[AndroidUiautomator2Driver@8c87]   locationServicesEnabled
+2025-08-26 22:37:55:954 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Session created with session id: 59d97672-c230-4db0-a35a-ff82b5c60da6
+2025-08-26 22:37:55:958 [59d97672][ADB] Found 1 'build-tools' folders under '/Users/rodolforodrigues/Library/Android/sdk' (newest first):
+2025-08-26 22:37:55:958 [59d97672][ADB]     /Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1
+2025-08-26 22:37:55:958 [59d97672][ADB] Using 'adb' from '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb'
+2025-08-26 22:37:55:958 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2025-08-26 22:37:55:968 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Retrieving device list
+2025-08-26 22:37:55:968 [59d97672][ADB] Trying to find connected Android devices
+2025-08-26 22:37:55:968 [59d97672][ADB] Getting connected devices
+2025-08-26 22:37:55:976 [59d97672][ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2025-08-26 22:37:55:976 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Using device: emulator-5554
+2025-08-26 22:37:55:977 [59d97672][ADB] Using 'adb' from '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb'
+2025-08-26 22:37:55:977 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2025-08-26 22:37:55:984 [59d97672][ADB] Setting device id to emulator-5554
+2025-08-26 22:37:55:985 [59d97672][BaseDriver] Using local app '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk'
+2025-08-26 22:37:56:043 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Checking whether app is actually present
+2025-08-26 22:37:56:043 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2025-08-26 22:37:56:071 [59d97672][ADB] Current device property 'ro.build.version.sdk': 36
+2025-08-26 22:37:56:071 [59d97672][ADB] Getting device platform version
+2025-08-26 22:37:56:071 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2025-08-26 22:37:56:084 [59d97672][ADB] Current device property 'ro.build.version.release': 16
+2025-08-26 22:37:56:084 [59d97672][ADB] Device API level: 36
+2025-08-26 22:37:56:084 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Relaxing hidden api policy
+2025-08-26 22:37:56:084 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2025-08-26 22:37:56:085 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Parsing package and activity from the 'weatherChannel_app.apk' file manifest
+2025-08-26 22:37:56:085 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 wait-for-device'
+2025-08-26 22:37:56:087 [59d97672][ADB] Using 'aapt2' from '/Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1/aapt2'
+2025-08-26 22:37:56:087 [59d97672][ADB] Reading package manifest: '/Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1/aapt2 dump badging /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk'
+2025-08-26 22:37:56:094 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell echo ping'
+2025-08-26 22:37:56:107 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Pushing settings apk to the device...
+2025-08-26 22:37:56:108 [59d97672][ADB] Getting package info for 'io.appium.settings'
+2025-08-26 22:37:56:108 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2025-08-26 22:37:56:139 [59d97672][ADB] Package name: 'com.weather.Weather'
+2025-08-26 22:37:56:139 [59d97672][ADB] Main activity name: 'com.weather.corgikit.view.CorgiActivity'
+2025-08-26 22:37:56:139 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Resolved launch package -> activity: com.weather.Weather -> com.weather.corgikit.view.CorgiActivity
+2025-08-26 22:37:56:139 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Resolved wait package -> activity: com.weather.Weather -> com.weather.corgikit.view.CorgiActivity
+2025-08-26 22:37:56:198 [59d97672][ADB] Reading package manifest: '/Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1/aapt2 dump badging /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2025-08-26 22:37:56:211 [59d97672][ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.14.8' >= '5.14.8')
+2025-08-26 22:37:56:211 [59d97672][ADB] There is no need to install/upgrade '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2025-08-26 22:37:56:212 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings'
+2025-08-26 22:37:56:229 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] io.appium.settings is already running. There is no need to reset its permissions.
+2025-08-26 22:37:56:230 [59d97672][Logcat] Starting logs capture with command: /Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 logcat -v threadtime
+2025-08-26 22:37:56:250 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2025-08-26 22:37:56:251 [59d97672][ADB] Forwarding system: 8200 to device: 6790
+2025-08-26 22:37:56:251 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+2025-08-26 22:37:56:260 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] UIA2Proxy options: {"server":"127.0.0.1","port":8200,"keepAlive":true,"scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
+2025-08-26 22:37:56:260 [59d97672][ADB] Getting package info for 'io.appium.uiautomator2.server'
+2025-08-26 22:37:56:260 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2025-08-26 22:37:56:261 [59d97672][ADB] Getting install status for io.appium.uiautomator2.server.test
+2025-08-26 22:37:56:261 [59d97672][ADB] Checking app cert for /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk
+2025-08-26 22:37:56:261 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package list packages'
+2025-08-26 22:37:56:286 [59d97672][ADB] 'io.appium.uiautomator2.server.test' is installed
+2025-08-26 22:37:56:306 [59d97672][ADB] Reading package manifest: '/Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1/aapt2 dump badging /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.5.2.apk'
+2025-08-26 22:37:56:340 [59d97672][ADB] Using 'apksigner.jar' from '/Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1/lib/apksigner.jar'
+2025-08-26 22:37:56:341 [59d97672][ADB] Starting apksigner: /opt/homebrew/opt/openjdk/bin/java -Xmx1024M -Xss1m -jar /Users/rodolforodrigues/Library/Android/sdk/build-tools/35.0.1/lib/apksigner.jar verify --print-certs /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk
+2025-08-26 22:37:56:356 [59d97672][ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.5.2' >= '7.5.2')
+2025-08-26 22:37:56:356 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Server packages status: [{"installState":"sameVersionInstalled","appPath":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.5.2.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+2025-08-26 22:37:56:356 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Server packages are not going to be (re)installed
+2025-08-26 22:37:56:357 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 30000ms for services to be available
+2025-08-26 22:37:56:357 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm list instrumentation'
+2025-08-26 22:37:56:381 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2025-08-26 22:37:56:382 [59d97672][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2025-08-26 22:37:56:382 [59d97672][ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2025-08-26 22:37:56:382 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2025-08-26 22:37:56:781 [59d97672][ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
 Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
 Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
 Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
 
-2025-05-15 19:10:17:867 [3ad5f060][ADB] sha256 hash did match for 'weatherChannel_app.apk'
-2025-05-15 19:10:17:867 [3ad5f060][ADB] '/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk' is signed with the default certificate
-2025-05-15 19:10:17:867 [3ad5f060][ADB] Getting package info for 'com.weather.Weather'
-2025-05-15 19:10:17:867 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.weather.Weather'
-2025-05-15 19:10:17:901 [3ad5f060][ADB] Reading package manifest: '/Users/rodolforodrigues/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk'
-2025-05-15 19:10:17:942 [3ad5f060][ADB] The version name of the installed 'com.weather.Weather' is greater or equal to the application version name ('14.16.0' >= '14.16.0')
-2025-05-15 19:10:17:942 [3ad5f060][ADB] There is no need to install/upgrade '/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk'
-2025-05-15 19:10:17:942 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Performing fast reset on 'com.weather.Weather'
-2025-05-15 19:10:17:942 [3ad5f060][ADB] Getting install status for com.weather.Weather
-2025-05-15 19:10:17:942 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell cmd package list packages'
-2025-05-15 19:10:17:964 [3ad5f060][ADB] 'com.weather.Weather' is installed
-2025-05-15 19:10:17:964 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.weather.Weather'
-2025-05-15 19:10:18:018 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pm clear com.weather.Weather'
-2025-05-15 19:10:18:085 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Performed fast reset on the installed 'com.weather.Weather' application (stop and clear)
-2025-05-15 19:10:18:086 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Performing shallow cleanup of automation leftovers
-2025-05-15 19:10:18:124 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] No obsolete sessions have been detected (socket hang up)
-2025-05-15 19:10:18:124 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
-2025-05-15 19:10:18:125 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
-2025-05-15 19:10:18:188 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Starting UIAutomator2 server 7.5.2
-2025-05-15 19:10:18:188 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Using UIAutomator2 server from '/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.5.2.apk' and test from '/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
-2025-05-15 19:10:18:189 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 30000ms for UiAutomator2 to be online...
-2025-05-15 19:10:18:189 [3ad5f060][ADB] Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
-2025-05-15 19:10:18:191 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/status' to command name 'getStatus'
-2025-05-15 19:10:18:192 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-2025-05-15 19:10:18:212 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] socket hang up
-2025-05-15 19:10:18:965 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] 
-2025-05-15 19:10:19:216 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/status' to command name 'getStatus'
-2025-05-15 19:10:19:216 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
-2025-05-15 19:10:19:251 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
-2025-05-15 19:10:19:252 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] The initialization of the instrumentation process took 1063ms
-2025-05-15 19:10:19:253 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/session' to command name 'createSession'
-2025-05-15 19:10:19:253 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","wdio:maxInstances":1,"deviceName":"emulator-5554","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 7a","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true},"deviceUDID":"emulator-5554","appPackage":"com.weather.Weather","appActivity":"com.weather.corgikit.view.CorgiActivity"}],"alwaysMatch":{}}}
-2025-05-15 19:10:19:267 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":{"capabilities":{"firstMatch":[{"platformName":"Android","wdio:maxInstances":1,"deviceName":"emulator-5554","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 7a","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true},"deviceUDID":"emulator-5554","appPackage":"com.weather.Weather","appActivity":"com.weather.corgikit.view.CorgiActivity"}],"alwaysMatch":{}},"sessionId":"a442bc54-4a06-4f66-a03f-d62a0...
-2025-05-15 19:10:19:267 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Determined the downstream protocol as 'W3C'
-2025-05-15 19:10:19:280 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/appium/device/pixel_ratio] with no body
-2025-05-15 19:10:19:282 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/appium/device/system_bars' to command name 'getSystemBars'
-2025-05-15 19:10:19:283 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/appium/device/system_bars] with no body
-2025-05-15 19:10:19:284 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/window/current/size' to command name 'getWindowSize'
-2025-05-15 19:10:19:284 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/window/current/size] with no body
-2025-05-15 19:10:19:288 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/appium/device/info] with no body
-2025-05-15 19:10:19:289 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
-2025-05-15 19:10:19:290 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys power'
-2025-05-15 19:10:19:303 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":3.5}
-2025-05-15 19:10:19:303 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":{"statusBar":144}}
-2025-05-15 19:10:19:306 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":{"height":3120,"width":1440}}
-2025-05-15 19:10:19:337 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":{"androidId":"cbb7296950312bd7","apiVersion":"36","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_arm64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":145000,"linkUpstreamBandwidthKbps":60000,"networkCapab...
-2025-05-15 19:10:19:349 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Screen already unlocked, doing nothing
-2025-05-15 19:10:19:350 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Starting 'com.weather.Weather/com.weather.corgikit.view.CorgiActivity' and waiting for 'com.weather.Weather/com.weather.corgikit.view.CorgiActivity'
-2025-05-15 19:10:19:350 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -W -n com.weather.Weather/com.weather.corgikit.view.CorgiActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-2025-05-15 19:10:20:205 [3ad5f060][ADB] Expected package names to be focused within 20000ms: 'com.weather.Weather'
-2025-05-15 19:10:20:206 [3ad5f060][ADB] Expected activity name patterns to be focused within 20000ms: '/^com\.weather\.corgikit\.view\.CorgiActivity$/', '/^com\.weather\.Weather\.com\.weather\.corgikit\.view\.CorgiActivity$/'
-2025-05-15 19:10:20:207 [3ad5f060][ADB] Getting focused package and activity
-2025-05-15 19:10:20:207 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window displays'
-2025-05-15 19:10:20:243 [3ad5f060][ADB] Focused package: com.weather.Weather
-2025-05-15 19:10:20:243 [3ad5f060][ADB] Focused fully qualified activity name: com.weather.corgikit.view.CorgiActivity
-2025-05-15 19:10:20:243 [3ad5f060][AppiumDriver@1ea5] New AndroidUiautomator2Driver session created successfully, session 3ad5f060-e6d8-46b8-8503-f1da0ea74931 added to master session list
-2025-05-15 19:10:20:244 [3ad5f060][AppiumDriver@1ea5] Event 'newSessionStarted' logged at 1747336220244 (16:10:20 GMT-0300 (Brasilia Standard Time))
-2025-05-15 19:10:20:244 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Cached the protocol value 'W3C' for the new session 3ad5f060-e6d8-46b8-8503-f1da0ea74931
-2025-05-15 19:10:20:244 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"emulator-5554","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 7a","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true},"deviceUDID":"emulator-5554","appPackage":"com.weather.Weather","appActivity":"com.weather.corgikit.view.CorgiActivity","pixelRatio":"3.5","statBarHeight":144,"viewportRect":{"left":0,"top":144,"width":1440,"height":2976},"deviceApiLevel":36,"platformVersio...
-2025-05-15 19:10:20:247 [3ad5f060][HTTP] <-- POST /session 200 3303 ms - 1213 
-2025-05-15 19:10:20:267 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/appium/settings {"settings":{"waitForSelectorTimemout":300}}
-2025-05-15 19:10:20:269 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.updateSettings() with args: [{"waitForSelectorTimemout":300},"3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:20:270 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/appium/settings' to command name 'updateSettings'
-2025-05-15 19:10:20:270 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /appium/settings] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/appium/settings] with body: {"settings":{"waitForSelectorTimemout":300}}
-2025-05-15 19:10:20:292 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":null}
-2025-05-15 19:10:20:293 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.updateSettings() result: null
-2025-05-15 19:10:20:293 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/appium/settings 200 26 ms - 14 
-2025-05-15 19:10:20:302 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:20:303 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:20:303 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:20:304 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:20:305 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/element' to command name 'findElement'
-2025-05-15 19:10:20:305 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":false}
-2025-05-15 19:10:21:133 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 404: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:63)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)\n\tat io.netty.chann...
-2025-05-15 19:10:21:133 [3ad5f060][W3C] Matched W3C error code 'no such element' to NoSuchElementError
-2025-05-15 19:10:21:133 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
-    at AndroidUiautomator2Driver.findElOrEls (/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
-    at processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
-    at AndroidUiautomator2Driver.findElement (/Users/rodolforodrigues/PersonalRepos/appium-WebdriverIO-TheWeatherChannel/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
-2025-05-15 19:10:21:134 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element 404 832 ms - 1025 
-2025-05-15 19:10:21:144 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:145 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:145 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:145 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:145 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:145 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:765 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:765 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:765 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 621 ms - 12 
-2025-05-15 19:10:21:770 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:770 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:771 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:771 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:771 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:771 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:813 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:815 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:816 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 45 ms - 12 
-2025-05-15 19:10:21:821 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:822 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:822 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:822 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:822 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:822 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:865 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:866 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:867 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 45 ms - 12 
-2025-05-15 19:10:21:871 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:871 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:872 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:872 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:872 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:872 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:881 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:881 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:882 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 10 ms - 12 
-2025-05-15 19:10:21:886 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:887 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:887 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:887 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:887 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:887 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:900 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:900 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:901 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 14 ms - 12 
-2025-05-15 19:10:21:908 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:909 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:909 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:909 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:909 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:909 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:917 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:917 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:918 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 9 ms - 12 
-2025-05-15 19:10:21:922 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:922 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:922 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:922 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:922 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:922 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:932 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:932 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:933 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 11 ms - 12 
-2025-05-15 19:10:21:937 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:937 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:937 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:937 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:938 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:938 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:950 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:950 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:950 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 13 ms - 12 
-2025-05-15 19:10:21:953 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:21:953 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:21:953 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:21:953 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:21:953 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:21:953 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:21:966 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:21:966 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:21:967 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 13 ms - 12 
-2025-05-15 19:10:22:041 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:22:042 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:22:042 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:22:042 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:22:042 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:22:043 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:22:051 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:22:051 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:22:051 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 10 ms - 12 
-2025-05-15 19:10:22:148 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:22:149 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:22:149 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:22:149 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:22:149 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:22:149 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:22:160 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:22:160 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:22:161 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 12 ms - 12 
-2025-05-15 19:10:22:243 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:22:244 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:22:244 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:22:244 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:22:244 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:22:244 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:22:263 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:22:265 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:22:265 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 21 ms - 12 
-2025-05-15 19:10:22:346 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:22:346 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:22:346 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:22:346 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:22:346 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:22:346 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:22:355 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:22:355 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:22:355 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 10 ms - 12 
-2025-05-15 19:10:22:448 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:22:449 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:22:449 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:22:449 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:22:449 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:22:449 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:22:462 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:22:462 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:22:462 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 14 ms - 12 
-2025-05-15 19:10:22:544 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:22:544 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:22:544 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:22:544 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:22:545 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:22:545 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:22:554 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[]}
-2025-05-15 19:10:22:555 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: []
-2025-05-15 19:10:22:555 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 11 ms - 12 
-2025-05-15 19:10:22:644 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:22:644 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:22:644 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:22:644 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:22:645 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/elements' to command name 'findElements'
-2025-05-15 19:10:22:645 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
-2025-05-15 19:10:23:239 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":[{"ELEMENT":"00000000-0000-004d-0000-001e00000007","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-004d-0000-001e00000007"}]}
-2025-05-15 19:10:23:239 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-004d-0000-001e00000007","ELEMENT":"00000000-0000-004d-0000-001e00000007"}]
-2025-05-15 19:10:23:240 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/elements 200 596 ms - 139 
-2025-05-15 19:10:23:247 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:23:248 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:23:248 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:23:248 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:23:248 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/element' to command name 'findElement'
-2025-05-15 19:10:23:248 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":false}
-2025-05-15 19:10:23:266 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":{"ELEMENT":"00000000-0000-004d-0000-001e00000007","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-004d-0000-001e00000007"}}
-2025-05-15 19:10:23:266 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-004d-0000-001e00000007","ELEMENT":"00000000-0000-004d-0000-001e00000007"}
-2025-05-15 19:10:23:267 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element 200 19 ms - 137 
-2025-05-15 19:10:23:271 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
-2025-05-15 19:10:23:272 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:23:273 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
-2025-05-15 19:10:23:273 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Waiting up to 0 ms for condition
-2025-05-15 19:10:23:273 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/element' to command name 'findElement'
-2025-05-15 19:10:23:273 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":false}
-2025-05-15 19:10:23:288 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":{"ELEMENT":"00000000-0000-004d-0000-001e00000007","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-004d-0000-001e00000007"}}
-2025-05-15 19:10:23:288 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-004d-0000-001e00000007","ELEMENT":"00000000-0000-004d-0000-001e00000007"}
-2025-05-15 19:10:23:289 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element 200 17 ms - 137 
-2025-05-15 19:10:23:293 [3ad5f060][HTTP] --> POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element/00000000-0000-004d-0000-001e00000007/click {}
-2025-05-15 19:10:23:293 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.click() with args: ["00000000-0000-004d-0000-001e00000007","3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:23:294 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Matched '/element/00000000-0000-004d-0000-001e00000007/click' to command name 'click'
-2025-05-15 19:10:23:294 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [POST /element/00000000-0000-004d-0000-001e00000007/click] to [POST http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af/element/00000000-0000-004d-0000-001e00000007/click] with body: {"element":"00000000-0000-004d-0000-001e00000007"}
-2025-05-15 19:10:23:966 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":null}
-2025-05-15 19:10:23:968 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Responding to client with driver.click() result: null
-2025-05-15 19:10:23:970 [3ad5f060][HTTP] <-- POST /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931/element/00000000-0000-004d-0000-001e00000007/click 200 676 ms - 14 
-2025-05-15 19:10:26:979 [3ad5f060][HTTP] --> DELETE /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931 {}
-2025-05-15 19:10:26:980 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Calling AppiumDriver.deleteSession() with args: ["3ad5f060-e6d8-46b8-8503-f1da0ea74931"]
-2025-05-15 19:10:26:980 [3ad5f060][AppiumDriver@1ea5] Event 'quitSessionRequested' logged at 1747336226980 (16:10:26 GMT-0300 (Brasilia Standard Time))
-2025-05-15 19:10:26:981 [3ad5f060][AppiumDriver@1ea5] Removing session 3ad5f060-e6d8-46b8-8503-f1da0ea74931 from our master session list
-2025-05-15 19:10:26:981 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Deleting UiAutomator2 session
-2025-05-15 19:10:26:981 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Deleting UiAutomator2 server session
-2025-05-15 19:10:26:981 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/a442bc54-4a06-4f66-a03f-d62a0bb0f1af] with no body
-2025-05-15 19:10:26:990 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Got response with status 200: {"sessionId":"a442bc54-4a06-4f66-a03f-d62a0bb0f1af","value":null}
-2025-05-15 19:10:26:990 [3ad5f060][ADB] Getting IDs of all 'io.appium.uiautomator2.server' processes
-2025-05-15 19:10:26:991 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
-2025-05-15 19:10:27:030 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.uiautomator2\.server\(:\[a-zA-Z0-9_-\]\+\)\?\(\[\[:blank:\]\]\|\$\)'
-2025-05-15 19:10:27:035 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
-2025-05-15 19:10:27:036 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] 
-2025-05-15 19:10:27:036 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] Time: 8.054
-2025-05-15 19:10:27:036 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] 
-2025-05-15 19:10:27:036 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] OK (1 test)
-2025-05-15 19:10:27:036 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] 
-2025-05-15 19:10:27:036 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] 
-2025-05-15 19:10:27:049 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] [Instrumentation] The process has exited with code 0, signal null
-2025-05-15 19:10:27:066 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
-2025-05-15 19:10:27:067 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
-2025-05-15 19:10:27:097 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
-2025-05-15 19:10:27:098 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.weather.Weather'
-2025-05-15 19:10:27:141 [3ad5f060][ADB] Removing forwarded port socket connection: 8200 
-2025-05-15 19:10:27:141 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
-2025-05-15 19:10:27:154 [3ad5f060][38;5;-113m[AndroidUiautomator2Driver@d0b0] Restoring hidden api policy to the device default configuration
-2025-05-15 19:10:27:154 [3ad5f060][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
-2025-05-15 19:10:27:213 [3ad5f060][Logcat] Stopping logcat capture
-2025-05-15 19:10:27:214 [3ad5f060][AppiumDriver@1ea5] Event 'quitSessionFinished' logged at 1747336227214 (16:10:27 GMT-0300 (Brasilia Standard Time))
-2025-05-15 19:10:27:215 [3ad5f060][AppiumDriver@1ea5] Received response: null
-2025-05-15 19:10:27:215 [3ad5f060][AppiumDriver@1ea5] But deleting session, so not returning
-2025-05-15 19:10:27:215 [3ad5f060][AppiumDriver@1ea5] Responding to client with driver.deleteSession() result: null
-2025-05-15 19:10:27:215 [3ad5f060][HTTP] <-- DELETE /session/3ad5f060-e6d8-46b8-8503-f1da0ea74931 200 236 ms - 14 
-2025-05-15 19:10:27:605 [Appium] Received SIGTERM - shutting down
+2025-08-26 22:37:56:781 [59d97672][ADB] sha256 hash did match for 'weatherChannel_app.apk'
+2025-08-26 22:37:56:781 [59d97672][ADB] '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk' is signed with the default certificate
+2025-08-26 22:37:56:781 [59d97672][ADB] Getting package info for 'com.weather.Weather'
+2025-08-26 22:37:56:781 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys package com.weather.Weather'
+2025-08-26 22:37:56:796 [59d97672][ADB] App '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk' is not installed
+2025-08-26 22:37:56:796 [59d97672][ADB] Installing '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk'
+2025-08-26 22:37:56:796 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 help'
+2025-08-26 22:37:56:803 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 features'
+2025-08-26 22:37:56:811 [59d97672][ADB] The application at '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2025-08-26 22:37:56:811 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 install /Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk'
+2025-08-26 22:37:57:887 [59d97672][ADB] The installation of 'weatherChannel_app.apk' took 1076ms
+2025-08-26 22:37:57:887 [59d97672][ADB] Install command stdout: Performing Streamed Install
+Success
+2025-08-26 22:37:57:888 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Performing shallow cleanup of automation leftovers
+2025-08-26 22:37:57:926 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] No obsolete sessions have been detected (socket hang up)
+2025-08-26 22:37:57:927 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+2025-08-26 22:37:57:927 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2025-08-26 22:37:57:989 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Starting UIAutomator2 server 7.5.2
+2025-08-26 22:37:57:989 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Using UIAutomator2 server from '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.5.2.apk' and test from '/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2025-08-26 22:37:57:989 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 30000ms for UiAutomator2 to be online...
+2025-08-26 22:37:57:989 [59d97672][ADB] Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2025-08-26 22:37:57:992 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/status' to command name 'getStatus'
+2025-08-26 22:37:57:993 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-08-26 22:37:58:008 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] socket hang up
+2025-08-26 22:37:58:975 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] 
+2025-08-26 22:37:59:009 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/status' to command name 'getStatus'
+2025-08-26 22:37:59:009 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-08-26 22:37:59:013 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] socket hang up
+2025-08-26 22:38:00:015 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/status' to command name 'getStatus'
+2025-08-26 22:38:00:015 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-08-26 22:38:00:029 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2025-08-26 22:38:00:030 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] The initialization of the instrumentation process took 2041ms
+2025-08-26 22:38:00:031 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/session' to command name 'createSession'
+2025-08-26 22:38:00:031 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","wdio:maxInstances":1,"deviceName":"emulator-5554","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 7a","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true},"deviceUDID":"emulator-5554","appPackage":"com.weather.Weather","appActivity":"com.weather.corgikit.view.CorgiActivity"}],"alwaysMatch":{}}}
+2025-08-26 22:38:00:043 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"capabilities":{"firstMatch":[{"platformName":"Android","wdio:maxInstances":1,"deviceName":"emulator-5554","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 7a","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true},"deviceUDID":"emulator-5554","appPackage":"com.weather.Weather","appActivity":"com.weather.corgikit.view.CorgiActivity"}],"alwaysMatch":{}},"sessionId":"f9eff27d-d700-4dc...
+2025-08-26 22:38:00:044 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Determined the downstream protocol as 'W3C'
+2025-08-26 22:38:00:057 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/appium/device/pixel_ratio] with no body
+2025-08-26 22:38:00:058 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2025-08-26 22:38:00:058 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/appium/device/system_bars] with no body
+2025-08-26 22:38:00:059 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/window/current/size' to command name 'getWindowSize'
+2025-08-26 22:38:00:059 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/window/current/size] with no body
+2025-08-26 22:38:00:060 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/appium/device/info] with no body
+2025-08-26 22:38:00:061 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window'
+2025-08-26 22:38:00:062 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys power'
+2025-08-26 22:38:00:068 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":2.625}
+2025-08-26 22:38:00:071 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"height":2400,"width":1080}}
+2025-08-26 22:38:00:079 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"statusBar":118}}
+2025-08-26 22:38:00:110 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"androidId":"c945bc64100adfea","apiVersion":"36","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_arm64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-50,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":145000,"linkUpstreamBandwidthKbps":60000,"networkCapab...
+2025-08-26 22:38:00:113 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Screen already unlocked, doing nothing
+2025-08-26 22:38:00:113 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Starting 'com.weather.Weather/com.weather.corgikit.view.CorgiActivity' and waiting for 'com.weather.Weather/com.weather.corgikit.view.CorgiActivity'
+2025-08-26 22:38:00:113 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am start-activity -W -n com.weather.Weather/com.weather.corgikit.view.CorgiActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2025-08-26 22:38:00:829 [59d97672][ADB] Expected package names to be focused within 20000ms: 'com.weather.Weather'
+2025-08-26 22:38:00:829 [59d97672][ADB] Expected activity name patterns to be focused within 20000ms: '/^com\.weather\.corgikit\.view\.CorgiActivity$/', '/^com\.weather\.Weather\.com\.weather\.corgikit\.view\.CorgiActivity$/'
+2025-08-26 22:38:00:829 [59d97672][ADB] Getting focused package and activity
+2025-08-26 22:38:00:829 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys window displays'
+2025-08-26 22:38:00:862 [59d97672][ADB] Focused package: com.weather.Weather
+2025-08-26 22:38:00:862 [59d97672][ADB] Focused fully qualified activity name: com.weather.corgikit.view.CorgiActivity
+2025-08-26 22:38:00:862 [59d97672][AppiumDriver@5478] New AndroidUiautomator2Driver session created successfully, session 59d97672-c230-4db0-a35a-ff82b5c60da6 added to master session list
+2025-08-26 22:38:00:862 [59d97672][AppiumDriver@5478] Event 'newSessionStarted' logged at 1756247880862 (19:38:00 GMT-0300 (Brasilia Standard Time))
+2025-08-26 22:38:00:862 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Cached the protocol value 'W3C' for the new session 59d97672-c230-4db0-a35a-ff82b5c60da6
+2025-08-26 22:38:00:862 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"emulator-5554","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 7a","automationName":"UiAutomator2","app":"/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/apk/weatherChannel_app.apk","newCommandTimeout":240,"locationServicesEnabled":true},"deviceUDID":"emulator-5554","appPackage":"com.weather.Weather","appActivity":"com.weather.corgikit.view.CorgiActivity","pixelRatio":"2.625","statBarHeight":118,"viewportRect":{"left":0,"top":118,"width":1080,"height":2282},"deviceApiLevel":36,"...
+2025-08-26 22:38:00:863 [59d97672][HTTP] <-- POST /session 200 4920 ms - 1227 
+2025-08-26 22:38:00:875 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/appium/settings {"settings":{"waitForSelectorTimemout":300}}
+2025-08-26 22:38:00:878 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.updateSettings() with args: [{"waitForSelectorTimemout":300},"59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:00:879 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/appium/settings' to command name 'updateSettings'
+2025-08-26 22:38:00:879 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /appium/settings] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/appium/settings] with body: {"settings":{"waitForSelectorTimemout":300}}
+2025-08-26 22:38:00:889 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":null}
+2025-08-26 22:38:00:889 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.updateSettings() result: null
+2025-08-26 22:38:00:890 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/appium/settings 200 15 ms - 14 
+2025-08-26 22:38:00:897 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
+2025-08-26 22:38:00:898 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:00:898 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-08-26 22:38:00:899 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 0 ms for condition
+2025-08-26 22:38:00:899 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/element' to command name 'findElement'
+2025-08-26 22:38:00:900 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":false}
+2025-08-26 22:38:02:477 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 404: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:63)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)\n\tat io.netty.chann...
+2025-08-26 22:38:02:478 [59d97672][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2025-08-26 22:38:02:478 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/rodolforodrigues/personalGitRepos/appium-webdriverIO-TheWeatherChannelApp/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2025-08-26 22:38:02:479 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element 404 1581 ms - 1042 
+2025-08-26 22:38:02:492 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
+2025-08-26 22:38:02:492 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:02:493 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-08-26 22:38:02:493 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 0 ms for condition
+2025-08-26 22:38:02:493 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/elements' to command name 'findElements'
+2025-08-26 22:38:02:493 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
+2025-08-26 22:38:02:506 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":[]}
+2025-08-26 22:38:02:506 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.findElements() result: []
+2025-08-26 22:38:02:507 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/elements 200 14 ms - 12 
+2025-08-26 22:38:02:596 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/elements {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
+2025-08-26 22:38:02:597 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:02:597 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-08-26 22:38:02:597 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 0 ms for condition
+2025-08-26 22:38:02:598 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/elements' to command name 'findElements'
+2025-08-26 22:38:02:598 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":true}
+2025-08-26 22:38:03:751 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":[{"ELEMENT":"00000000-0000-0022-0000-001e00000007","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-001e00000007"}]}
+2025-08-26 22:38:03:752 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-001e00000007","ELEMENT":"00000000-0000-0022-0000-001e00000007"}]
+2025-08-26 22:38:03:753 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/elements 200 1156 ms - 139 
+2025-08-26 22:38:03:761 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
+2025-08-26 22:38:03:761 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:03:762 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-08-26 22:38:03:762 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 0 ms for condition
+2025-08-26 22:38:03:762 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/element' to command name 'findElement'
+2025-08-26 22:38:03:762 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":false}
+2025-08-26 22:38:03:769 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"ELEMENT":"00000000-0000-0022-0000-001e00000007","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-001e00000007"}}
+2025-08-26 22:38:03:769 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-001e00000007","ELEMENT":"00000000-0000-0022-0000-001e00000007"}
+2025-08-26 22:38:03:770 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element 200 9 ms - 137 
+2025-08-26 22:38:03:775 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"getStartedButton\")"}
+2025-08-26 22:38:03:775 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"getStartedButton\")","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:03:775 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-08-26 22:38:03:775 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 0 ms for condition
+2025-08-26 22:38:03:775 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/element' to command name 'findElement'
+2025-08-26 22:38:03:775 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"getStartedButton\")","context":"","multiple":false}
+2025-08-26 22:38:03:782 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"ELEMENT":"00000000-0000-0022-0000-001e00000007","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-001e00000007"}}
+2025-08-26 22:38:03:782 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-001e00000007","ELEMENT":"00000000-0000-0022-0000-001e00000007"}
+2025-08-26 22:38:03:783 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element 200 7 ms - 137 
+2025-08-26 22:38:03:785 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element/00000000-0000-0022-0000-001e00000007/click {}
+2025-08-26 22:38:03:786 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.click() with args: ["00000000-0000-0022-0000-001e00000007","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:03:789 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/element/00000000-0000-0022-0000-001e00000007/click' to command name 'click'
+2025-08-26 22:38:03:789 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /element/00000000-0000-0022-0000-001e00000007/click] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/element/00000000-0000-0022-0000-001e00000007/click] with body: {"element":"00000000-0000-0022-0000-001e00000007"}
+2025-08-26 22:38:04:439 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":null}
+2025-08-26 22:38:04:439 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.click() result: null
+2025-08-26 22:38:04:440 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element/00000000-0000-0022-0000-001e00000007/click 200 654 ms - 14 
+2025-08-26 22:38:04:444 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element {"using":"-android uiautomator","value":"new UiSelector().resourceId(\"ic_plus\")"}
+2025-08-26 22:38:04:444 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().resourceId(\"ic_plus\")","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:04:444 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-08-26 22:38:04:445 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Waiting up to 0 ms for condition
+2025-08-26 22:38:04:445 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/element' to command name 'findElement'
+2025-08-26 22:38:04:445 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().resourceId(\"ic_plus\")","context":"","multiple":false}
+2025-08-26 22:38:04:456 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":{"ELEMENT":"00000000-0000-0022-0000-006500000007","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-006500000007"}}
+2025-08-26 22:38:04:456 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0022-0000-006500000007","ELEMENT":"00000000-0000-0022-0000-006500000007"}
+2025-08-26 22:38:04:456 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element 200 12 ms - 137 
+2025-08-26 22:38:04:459 [59d97672][HTTP] --> POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element/00000000-0000-0022-0000-006500000007/click {}
+2025-08-26 22:38:04:459 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.click() with args: ["00000000-0000-0022-0000-006500000007","59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:04:461 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Matched '/element/00000000-0000-0022-0000-006500000007/click' to command name 'click'
+2025-08-26 22:38:04:461 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [POST /element/00000000-0000-0022-0000-006500000007/click] to [POST http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2/element/00000000-0000-0022-0000-006500000007/click] with body: {"element":"00000000-0000-0022-0000-006500000007"}
+2025-08-26 22:38:04:509 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":null}
+2025-08-26 22:38:04:510 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Responding to client with driver.click() result: null
+2025-08-26 22:38:04:510 [59d97672][HTTP] <-- POST /session/59d97672-c230-4db0-a35a-ff82b5c60da6/element/00000000-0000-0022-0000-006500000007/click 200 51 ms - 14 
+2025-08-26 22:38:04:514 [59d97672][HTTP] --> DELETE /session/59d97672-c230-4db0-a35a-ff82b5c60da6 {}
+2025-08-26 22:38:04:514 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Calling AppiumDriver.deleteSession() with args: ["59d97672-c230-4db0-a35a-ff82b5c60da6"]
+2025-08-26 22:38:04:514 [59d97672][AppiumDriver@5478] Event 'quitSessionRequested' logged at 1756247884514 (19:38:04 GMT-0300 (Brasilia Standard Time))
+2025-08-26 22:38:04:515 [59d97672][AppiumDriver@5478] Removing session 59d97672-c230-4db0-a35a-ff82b5c60da6 from our master session list
+2025-08-26 22:38:04:515 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Deleting UiAutomator2 session
+2025-08-26 22:38:04:515 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Deleting UiAutomator2 server session
+2025-08-26 22:38:04:516 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/f9eff27d-d700-4dc0-bd7b-79f4437505f2] with no body
+2025-08-26 22:38:04:518 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Got response with status 200: {"sessionId":"f9eff27d-d700-4dc0-bd7b-79f4437505f2","value":null}
+2025-08-26 22:38:04:518 [59d97672][ADB] Getting IDs of all 'io.appium.uiautomator2.server' processes
+2025-08-26 22:38:04:519 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2025-08-26 22:38:04:563 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.uiautomator2\.server\(:\[a-zA-Z0-9_-\]\+\)\?\(\[\[:blank:\]\]\|\$\)'
+2025-08-26 22:38:04:569 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+2025-08-26 22:38:04:570 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] 
+2025-08-26 22:38:04:570 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] Time: 5.575
+2025-08-26 22:38:04:570 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] 
+2025-08-26 22:38:04:570 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] OK (1 test)
+2025-08-26 22:38:04:570 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] 
+2025-08-26 22:38:04:570 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] 
+2025-08-26 22:38:04:619 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] [Instrumentation] The process has exited with code 0, signal null
+2025-08-26 22:38:04:620 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server'
+2025-08-26 22:38:04:620 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2025-08-26 22:38:04:645 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+2025-08-26 22:38:04:645 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell am force-stop com.weather.Weather'
+2025-08-26 22:38:04:677 [59d97672][ADB] Removing forwarded port socket connection: 8200 
+2025-08-26 22:38:04:677 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp:8200'
+2025-08-26 22:38:04:686 [59d97672][38;5;-163m[AndroidUiautomator2Driver@8c87] Restoring hidden api policy to the device default configuration
+2025-08-26 22:38:04:686 [59d97672][ADB] Running '/Users/rodolforodrigues/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2025-08-26 22:38:04:732 [59d97672][Logcat] Stopping logcat capture
+2025-08-26 22:38:04:733 [59d97672][AppiumDriver@5478] Event 'quitSessionFinished' logged at 1756247884733 (19:38:04 GMT-0300 (Brasilia Standard Time))
+2025-08-26 22:38:04:733 [59d97672][AppiumDriver@5478] Received response: null
+2025-08-26 22:38:04:733 [59d97672][AppiumDriver@5478] But deleting session, so not returning
+2025-08-26 22:38:04:734 [59d97672][AppiumDriver@5478] Responding to client with driver.deleteSession() result: null
+2025-08-26 22:38:04:734 [59d97672][HTTP] <-- DELETE /session/59d97672-c230-4db0-a35a-ff82b5c60da6 200 220 ms - 14 
+2025-08-26 22:38:05:119 [Appium] Received SIGTERM - shutting down

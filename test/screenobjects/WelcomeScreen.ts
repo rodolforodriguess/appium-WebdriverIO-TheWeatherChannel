@@ -10,10 +10,15 @@ class WelcomeScreen extends AppScreen {
     }
 
     get screen () { return $(SELECTORS.SCREEN)}
+    private get currentLocation () { return $('android=new UiSelector().resourceId("ic_plus")') };
     private get letsgoButton () { return $('android=new UiSelector().resourceId("getStartedButton")') };
 
     async tapOnGetStarted(){
         await this.letsgoButton.click();
+    }
+
+    async tapOnCurrentLocation(){
+        await this.currentLocation.click();
     }
 };
 
