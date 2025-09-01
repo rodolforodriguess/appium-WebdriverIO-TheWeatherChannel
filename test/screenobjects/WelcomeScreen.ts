@@ -3,7 +3,14 @@ import AppScreen from "./AppScreen.ts";
 const SELECTORS = {
     SCREEN: 'android=new UiSelector().resourceId("onboarding-welcome-page")',
     CURRENT_LOCATION: 'android=new UiSelector().resourceId("ic_plus")',
-    GET_STARTED_BUTTON: 'android=new UiSelector().resourceId("welcome-lets-go")',
+    GET_STARTED_BUTTON: 'android=new UiSelector().resourceId("ctaButtonText")',
+    LOOKS_GOOD_BUTTON: 'android=new UiSelector().resourceId("primaryActionButton")',
+    UNDERSTAND_BUTTON: 'android=new UiSelector().resourceId("iUnderstandButton")',
+    LOC_WHILE_IN_USE_BUTTON: 'id=com.android.permissioncontroller:id/permission_allow_only_button',
+    SAVE_PREF_BUTTON: 'android=new UiSelector().resourceId("primaryActionButton")',
+    ALLOW_BUTTON: 'android=new UiSelector().resourceId("com.android.permissioncontroller:id/permission_allow_button")',
+    ADDS_CONTINUE_BUTTON: 'android=new UiSelector().resourceId("onboardingAdsConsentPrimaryButton")',
+    CURRENT_WHEATHER_CONDITION: 'android=new UiSelector().resourceId("currentConditionWeatherPhrase")'
 };
 
 class WelcomeScreen extends AppScreen {
@@ -14,6 +21,13 @@ class WelcomeScreen extends AppScreen {
     get screen () { return $(SELECTORS.SCREEN) };
     private get currentLocation () { return $(SELECTORS.CURRENT_LOCATION) };
     private get letsgoButton () { return $(SELECTORS.GET_STARTED_BUTTON) };
+    private get looksGoodButton () { return $(SELECTORS.LOOKS_GOOD_BUTTON) };
+    private get understandButton () { return $(SELECTORS.UNDERSTAND_BUTTON) };
+    private get locWhileInUseButton () { return $(SELECTORS.LOC_WHILE_IN_USE_BUTTON) };
+    private get savePrefButton () { return $(SELECTORS.SAVE_PREF_BUTTON) };
+    private get allowButton () { return $(SELECTORS.ALLOW_BUTTON) };
+    private get addsContinueButton () { return $(SELECTORS.ADDS_CONTINUE_BUTTON) };
+    public get currentWheatherCondition () { return $(SELECTORS.CURRENT_WHEATHER_CONDITION) };
 
     async tapOnGetStarted(){
         await this.letsgoButton.click();
@@ -21,6 +35,30 @@ class WelcomeScreen extends AppScreen {
 
     async tapOnCurrentLocation(){
         await this.currentLocation.click();
+    }
+
+    async tapOnLooksGood(){
+        await this.looksGoodButton.click();
+    }
+
+    async tapOnUnderstand(){
+        await this.understandButton.click();
+    }
+    
+    async locationWhileInUse(){
+        await this.locWhileInUseButton.click();
+    }
+
+    async savePreferences(){
+        await this.savePrefButton.click();
+    }
+
+    async allowButtonClick(){
+        await this.allowButton.click();
+    }
+
+    async continueWithAdds(){
+        await this.addsContinueButton.click();
     }
 };
 

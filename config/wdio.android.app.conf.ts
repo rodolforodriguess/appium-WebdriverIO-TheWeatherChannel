@@ -15,6 +15,7 @@ export const config: WebdriverIO.Config = {
                 'apps',
                 '../apk/weatherChannel_app.apk'
             ),
+            'appium:appPackage': 'com.weather.Weather',
             'appium:newCommandTimeout': 240,
             "appium:locationServicesEnabled": true
         }

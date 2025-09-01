@@ -10,10 +10,12 @@ export const config: Options.Testrunner = {
     connectionRetryCount: 3,
     services: [],
     framework: 'mocha',
-    reporters: ['spec'],
+  reporters: [
+      ['spec', { onlyFailures: true }],
+  ],
     mochaOpts: {
         ui: 'bdd',
-        timeout: 3 * 60 * 1000,
+        timeout: 3 * 40 * 100,
     },
     
 
