@@ -6,12 +6,18 @@ class WelcomeScreen {
 
     get currentLocation () { return $('android=new UiSelector().resourceId("ic_plus")') };
 
+    get looksGoodButton () { return $('android=new UiSelector().resourceId("primaryActionButton")') };
+
     async tapOnGetStarted(){
         await this.letsGoButton.click();
     }
 
     async pickCurrentLocation(){
         await this.currentLocation.click();
+    }
+
+    async tapOnLooksGood(){
+        await this.looksGoodButton.click();
     }
 };
 
