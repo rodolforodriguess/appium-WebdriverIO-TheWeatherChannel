@@ -1,7 +1,7 @@
 import AppScreen from "./AppScreen.ts";
 
 const SELECTORS = {
-    SCREEN: 'android=new UiSelector().resourceId("onboarding-welcome-page")',
+    SCREEN: driver.isAndroid ? 'android=new UiSelector().resourceId("onboarding-welcome-page")' : '~onboarding-welcome-page',
     CURRENT_LOCATION: 'android=new UiSelector().resourceId("ic_plus")',
     GET_STARTED_BUTTON: 'android=new UiSelector().resourceId("ctaButtonText")',
     LOOKS_GOOD_BUTTON: 'android=new UiSelector().resourceId("primaryActionButton")',
@@ -29,35 +29,14 @@ class WelcomeScreen extends AppScreen {
     private get addsContinueButton () { return $(SELECTORS.ADDS_CONTINUE_BUTTON) };
     public get currentWheatherCondition () { return $(SELECTORS.CURRENT_WHEATHER_CONDITION) };
 
-    async tapOnGetStarted(){
+    async setWelcomeScreen(){
         await this.letsgoButton.click();
-    }
-
-    async tapOnCurrentLocation(){
         await this.currentLocation.click();
-    }
-
-    async tapOnLooksGood(){
         await this.looksGoodButton.click();
-    }
-
-    async tapOnUnderstand(){
         await this.understandButton.click();
-    }
-    
-    async locationWhileInUse(){
         await this.locWhileInUseButton.click();
-    }
-
-    async savePreferences(){
         await this.savePrefButton.click();
-    }
-
-    async allowButtonClick(){
         await this.allowButton.click();
-    }
-
-    async continueWithAdds(){
         await this.addsContinueButton.click();
     }
 };
